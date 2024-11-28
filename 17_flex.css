@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: brown;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:10px;
+    box-shadow: 5px 5px 3px grey;
+}
+.flex-container img{
+    width: 380px;
+    height: 250px;
+}
+.flex-container{
+    background-color: brown;
+}
+.flex-container div{
+    flex-basis: 40%;
+    text-align: center;
+    border: solid brown;
+    border-collapse:unset;
+}
